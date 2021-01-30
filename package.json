@@ -1,6 +1,7 @@
 {
   "name": "markdown-magic-subpackage-table",
   "version": "1.0.0",
+  "private": false,
   "description": "Markdown Magic plugin to create a table of subpackages",
   "author": "Owen Richards <owen@biglemon.co.uk>",
   "homepage": "https://github.com/biglemonco/markdown-magic-subpackage-table",
@@ -14,7 +15,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/biglemonco/modules.git"
+    "url": "git+https://github.com/biglemonco/markdown-magic-subpackage-table.git"
+  },
+  "bugs": {
+    "url": "https://github.com/biglemonco/markdown-magic-subpackage-table/issues"
   },
   "scripts": {
     "start": "tsc --watch",
@@ -22,20 +26,15 @@
     "docs": "node lib/example.js",
     "prepublish": "yarn build && yarn docs"
   },
-  "bugs": {
-    "url": "https://github.com/biglemonco/modules/issues"
-  },
   "dependencies": {
     "fs": "^0.0.1-security",
-    "path": "^0.12.7",
-    "markdown-magic": "^1.0.0"
+    "markdown-magic": "^1.0.0",
+    "path": "^0.12.7"
   },
   "devDependencies": {
-    "@types/jest": "^26.0.19",
-    "jest": "^26.6.3",
-    "markdown-magic": "^1.0.0",
-    "ts-jest": "^26.4.4",
-    "ts-node": "^9.1.1",
+    "@types/node": "^14.14.22",
+    "eslint": "^7.18.0",
+    "prettier": "^2.2.1",
     "typescript": "^4.1.3"
   },
   "gitHead": "3f7153225ea9931a1e256d8581b526edd20b1c3d"

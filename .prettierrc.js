@@ -1,4 +1,7 @@
-const rootConfig = require('../../.prettierrc.js');
 module.exports = {
-	...rootConfig,
-};
+	"printWidth": 80,
+	"tabWidth": 2,
+	"semi": true,
+	"singleQuote": true,
+	"trailingComma": "es5"
+}

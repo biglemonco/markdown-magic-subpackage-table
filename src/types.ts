@@ -1,5 +1,3 @@
-declare function require(name: string);
-
 export type Options = {
   dir: string;
   sortKey: keyof PackageList;

@@ -1,0 +1,27 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"declaration": true,
+		"noImplicitAny": false,
+		"removeComments": true,
+		"noLib": false,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"target": "es6",
+		"sourceMap": true,
+		"lib": ["es6"],
+		"outDir": "./lib"
+	},
+	"esModuleInterop": true,
+	"inlineSourceMap": true,
+	"exclude": [
+		"lib",
+		"node_modules",
+		"**/*.test.ts",
+		"**/*.tests.ts",
+		"**/*.spec.ts",
+		"jest.config.js",
+		"jest.setup.ts"
+	],
+	"include": ["./src"],
+}

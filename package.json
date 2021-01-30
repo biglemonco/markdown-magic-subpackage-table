@@ -1,8 +1,8 @@
 {
   "name": "markdown-magic-subpackage-table",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "description": "Markdown Magic plugin to create a table of subpackages",
-  "author": "Big Lemon <hello@biglemon.co.uk>",
+  "author": "Owen Richards <owen@biglemon.co.uk>",
   "homepage": "https://github.com/biglemonco/markdown-magic-subpackage-table",
   "license": "MIT",
   "main": "lib/index.js",
